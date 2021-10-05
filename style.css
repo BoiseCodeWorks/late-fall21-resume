@@ -1,0 +1,29 @@
+:root {
+  --primary: #77a0a0
+}
+
+body {
+  margin: 0
+}
+
+/* NOTE position relative creates an achor for child elements to position from */
+header {
+  position: relative;
+  background-color: var(--primary);
+  display: flex;
+  padding: 5em;
+}
+
+/* NOTE position absolute looks to the parent with relative (if none it becomes relative to the body tag) and moves accordingly */
+.content-spill {
+  position: absolute;
+  bottom: -5em;
+  right: 3em;
+}
+
+
+.headshot {
+  width: 18em;
+  height: 23em;
+  object-fit: cover
+}
