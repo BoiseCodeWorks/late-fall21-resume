@@ -10,32 +10,32 @@
 </head>
 
 <body>
-  <header>
+  <header class="d-flex">
     <div>
-      <h1>Lorem, ipsum.</h1>
-      <p>Lorem ipsum dolor sit amet consectetur.</p>
-      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <h1 id="name" class="blue red">Mister Snibbley</h1>
+      <p>Phone <a href="tel:+12088881234">(208) 888-1234</a></p>
+      <p>Email <a href="email:test@helloworld.com">test@helloworld.com</a></p>
     </div>
     <div class="content-spill">
       <img class="headshot" src="https://thiscatdoesnotexist.com" alt="Mark Ohnsman Picture">
     </div>
   </header>
-  <main>
+  <main class="d-flex">
     <section>
       <div class="resume-content">
         <h3>Work Experience</h3>
-        <div class="job">
+        <div class="job m-1">
           <p><b>JOB TITLE (START-END)</b></p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis eos minus sunt aperiam aliquid laudantium
             ipsum porro autem nulla, at maiores explicabo dolorum tempore, unde ea repellendus? Optio, praesentium quis!
           </p>
         </div>
-        <div class="job">
+        <div class="job m-1">
           <p><b>JOB TITLE (START-END)</b></p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis eos minus sunt aperiam aliquid laudantium
             ipsum porro autem nulla, at maiores explicabo dolorum tempore, unde ea</p>
         </div>
-        <div class="job">
+        <div class="job m-1">
           <p><b>JOB TITLE (START-END)</b></p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis eos minus sunt aperiam aliquid laudantium
             ipsum porro autem nulla, at maiores explicabo dolorum tempore, unde ea repellendus? Optio, praesentium quis!
@@ -43,28 +43,30 @@
             tempore, unde ea repellendus?</p>
         </div>
       </div>
-      <div class="resume-content">
+      <div class="resume-content my-2">
         <h3>Education</h3>
-        <p><b>SCHOOL NAME - DEGREEE (START-END)</b></p>
-        <p><b>SCHOOL NAME - DEGREEE (START-END)</b></p>
+        <p class="m-1"><b>SCHOOL NAME - DEGREEE (START-END)</b></p>
+        <p class="m-1"><b>SCHOOL NAME - DEGREEE (START-END)</b></p>
       </div>
     </section>
-    <section>
+    <section class="section-right">
       <div class="resume-content">
         <h3>Objectives</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur nisi iusto, dolores quis rerum
-          officia accusantium nobis reiciendis commodi, consequuntur ut, reprehenderit rem porro sequi distinctio nemo
-          quidem voluptatum?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur nisi iusto, dolores quis rerum
-          officia accusantium nobis reiciendis commodi?</p>
+        <div class="m-1">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur nisi iusto, dolores quis rerum
+            officia accusantium nobis reiciendis commodi, consequuntur ut, reprehenderit rem porro sequi distinctio nemo
+            quidem voluptatum?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur nisi iusto, dolores quis rerum
+            officia accusantium nobis reiciendis commodi?</p>
+        </div>
       </div>
       <div class="resume-content">
         <h3>Skills</h3>
-        <div>
+        <div class="m-1">
           <label for="ninja">Ninja:</label>
           <progress id="ninja" value="74" max="100"> 74% </progress>
         </div>
-        <div>
+        <div class="m-1">
           <label for="golf">Golf:</label>
           <progress id="golf" value="12" max="100"> 12% </progress>
         </div>

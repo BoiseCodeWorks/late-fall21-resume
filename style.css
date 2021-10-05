@@ -1,16 +1,20 @@
 :root {
-  --primary: #77a0a0
+  --primary: #7798a0;
+  --secondary: #85ad7d;
 }
 
 body {
   margin: 0
 }
 
+p {
+  margin: 0;
+}
+
 /* NOTE position relative creates an achor for child elements to position from */
 header {
   position: relative;
   background-color: var(--primary);
-  display: flex;
   padding: 5em;
 }
 
@@ -23,7 +27,48 @@ header {
 
 
 .headshot {
-  width: 18em;
-  height: 23em;
+  width: 15em;
+  height: 20em;
   object-fit: cover
 }
+
+.d-flex {
+  display: flex;
+}
+
+main {
+  padding: 2em;
+}
+
+.resume-content h3{
+  background-color: var(--primary);
+    color: white;
+    padding: .5em;
+    display: inline;
+}
+
+.m-1 {
+  margin: 1em;
+}
+
+.my-2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.job p:first-child{
+  margin: .5em 0;
+}
+
+.section-right {
+  margin-top: 6em
+}
+
+
+/* div h1.red {
+  color: red;
+}
+
+#name.blue {
+  color: blue;
+} */
